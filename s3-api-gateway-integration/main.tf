@@ -168,3 +168,4 @@ resource "aws_api_gateway_deployment" "S3APIDeployment" {
   rest_api_id = "${aws_api_gateway_rest_api.MyS3.id}"
   stage_name  = "MyS3"
 }
+# Modified [main.tf] on [2020-12-03 22:52:41.628483]
